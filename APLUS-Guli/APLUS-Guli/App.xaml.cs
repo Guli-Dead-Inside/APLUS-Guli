@@ -1,4 +1,5 @@
-﻿using System;
+﻿using APLUS;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace APLUS_Guli
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Signin());
         }
 
         protected override void OnStart()
