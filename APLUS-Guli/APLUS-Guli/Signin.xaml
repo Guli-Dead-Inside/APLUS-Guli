@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="APLUS-Guli.Signin" Title="Вход">
+             x:Class="APLUS-Guli.Signin">
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Margin="60,20" Spacing="30">

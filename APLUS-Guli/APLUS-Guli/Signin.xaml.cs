@@ -23,7 +23,7 @@ public partial class Signin : ContentPage
 
     private async void SignIn_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Pages());
+        await Navigation.PushAsync(new Projects());
     }
 }
 }
